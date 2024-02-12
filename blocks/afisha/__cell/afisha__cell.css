@@ -1,0 +1,40 @@
+/* Стили для заголовков столбцов */
+.afisha__cell {
+  width: 55%;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-bottom: 2px solid #D0D0D0;
+  padding-left: 16px;
+}
+
+/* Стили для первого столбца */
+.afisha__cell:first-child {
+  opacity: 0.7;
+  width: 306px;
+  font-weight: 400;
+  border-right: 2px solid #D0D0D0;
+  padding-left: 0;
+}
+
+@media screen and (max-width: 936px) {
+  .afisha__cell {
+    width: 100%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #D0D0D0;
+    padding-left: 0;
+  }
+
+  .afisha__cell_value {
+    padding-bottom: 16px;
+    padding-top: 0;
+  }
+
+  .afisha__cell_value_no_border {
+    border: none;
+  }
+
+  .afisha__cell:first-child {
+    border: none;
+  }
+}

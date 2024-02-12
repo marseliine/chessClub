@@ -1,0 +1,11 @@
+.stages__plane {
+  position: absolute;
+  bottom: -15px;
+  right: -50px;
+}
+
+@media screen and (max-width: 376px) {
+  .stages__plane {
+    display: none;
+  }
+}

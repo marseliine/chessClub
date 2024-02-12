@@ -1,0 +1,11 @@
+.afisha {
+  padding-bottom: 64px;
+  padding-top: 80px;
+}
+
+@media screen and (max-width: 376px) {
+  .afisha {
+    padding-bottom: 24px;
+    padding-top: 48px;
+  }
+}

@@ -1,0 +1,11 @@
+.button__theme-white {
+  border-radius: 66px;
+  border: 2px solid #1F1F1F;
+  background-color: inherit;
+  color: #1F1F1F;
+}
+
+.button__theme-white:hover {
+  background: #1F1F1F;
+  color: #FFF;
+}

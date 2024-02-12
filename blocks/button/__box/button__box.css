@@ -1,0 +1,11 @@
+.button__box {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+@media screen and (max-width: 680px) {
+  .button__box {
+    justify-content: center;
+  }
+}

@@ -1,0 +1,17 @@
+.content {
+  width: 100%;
+  padding-left: 72px;
+  padding-right: 72px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 114px;
+}
+
+@media screen and (max-width: 376px) {
+  .content {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 291px;
+  }
+}

@@ -1,0 +1,9 @@
+.afisha__img {
+  width: 100%;
+  max-width: 394px;
+  object-fit: contain;
+}
+
+#afisha__img-tourney {
+  grid-area: img;
+}
